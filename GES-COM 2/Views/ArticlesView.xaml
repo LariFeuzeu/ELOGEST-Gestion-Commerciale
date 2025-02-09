@@ -1,0 +1,214 @@
+﻿<UserControl x:Class="GES_COM_2.Views.ArticlesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mdi="http://materialdesignicons.com" 
+             xmlns:local="clr-namespace:GES_COM_2.Views"
+             xmlns:vm="clr-namespace:GES_COM_2.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="852">
+    <UserControl.Resources>
+
+        <Style x:Key="CustomTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="BorderBrush" Value="Orange"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="MinHeight" Value="30"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                              BorderBrush="{TemplateBinding BorderBrush}"
+                              BorderThickness="{TemplateBinding BorderThickness}"
+                              CornerRadius="10">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                              Focusable="False"
+                              HorizontalScrollBarVisibility="Hidden"
+                              VerticalScrollBarVisibility="Hidden">
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#EAEAEA"/>
+                </Trigger>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#007ACC"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="RoundButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Background"
+                    Value="Transparent"/>
+        </Style>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <vm:ArticleVM/>
+    </UserControl.DataContext>
+    <Border Background="White"
+            CornerRadius="0 0 8 0">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Column="1"
+                        Grid.Row="1" Margin="5,0,-32,0">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Nom Aricle:"
+                           FontWeight="Bold"
+                           Margin="10,20,50,10" />
+                    <TextBox x:Name="LabelNomA" Width="140"      
+                     Height="48"
+                          Style="{StaticResource CustomTextBoxStyle}"  
+                             
+                     VerticalAlignment="Top" TextChanged="LabelNomA_TextChanged"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="PrixU:"
+                           FontWeight="Bold"
+                           Margin="10,20,83,10"/>
+                    <TextBox x:Name="LabelPrixU" Width="140"
+                              Style="{StaticResource CustomTextBoxStyle}" Height="48"
+                                 VerticalAlignment="Top" TextChanged="LabelPrixU_TextChanged"/>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="86">
+                    <Button Content="Enregistrer"
+                            Click="ButtonEnregistrer_Click"
+                            x:Name="ButtonEnregistrer"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Margin="10,26,20,13"
+                             Cursor="Hand"
+                             Width="98"
+                            Height="47"
+                            FontSize="18"
+                            Foreground="White"
+                               Style="{StaticResource RoundButtonStyle}"
+                           />
+                    <Button Content="Modifier"
+                            Click="ButtonModifier_Click" 
+                            x:Name="ButtonModifier" 
+                              Margin="10,26,20,13"
+                            Width="98" 
+                            Foreground="White"
+                            FontSize="18"
+                            Background="Gold"
+                            Height="47"
+                             Style="{StaticResource RoundButtonStyle}"
+                            Cursor="Hand"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"/>
+                    <Button Content="Supprimer"
+                            Click="ButtonSupprimer_Click"
+                            x:Name="ButtonSupprimer" 
+                             Margin="10,26,20,13"
+                            Width="98"
+                            Height="47" 
+                             Style="{StaticResource RoundButtonStyle}"
+                            FontSize="18"
+                            Foreground="White"
+                            Background="Red"
+                            Cursor="Hand"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="50,15,10,0">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Recherche:"
+                           Margin="10,10,10,10"
+                		FontWeight="Bold"
+                		/>
+                    <TextBox x:Name="TextBoxRecher"                      
+                    	Width="140"
+                    	Style="{StaticResource CustomTextBoxStyle}"
+                    	Height="48"
+                    	VerticalAlignment="Top" TextChanged="TextBoxRecher_TextChanged"/>
+
+                </StackPanel>
+            </StackPanel>
+            <ListView x:Name="listeArticle" Grid.Column="0"
+                    Grid.Row="1"    
+                      FontFamily="Arial"
+                      FontSize="12"
+                      FontWeight="Heavy"
+                      BorderBrush="#CAE9FF"
+                      BorderThickness="3"
+                      ItemsSource="{Binding Articles}"
+                 
+                   
+                      SelectionChanged="listeArticle_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="270">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Border Height="30"
+                                    Grid.Column="0"
+                                    Grid.RowSpan="2"
+                                    Width="30"
+                                    CornerRadius="10"
+                                    Background="Red"
+                                    HorizontalAlignment="Left"/>
+                            <TextBlock Text="{Binding NomA}"
+                                         FontWeight="Bold"
+                                          Grid.Column="1"
+                                       Margin="10,0,0,0"
+                                           Grid.Row="0"/>
+                            <TextBlock Text="{Binding Qte}"
+                                       Margin="10,0,0,0"
+                                           Grid.Row="1"
+                                           Grid.Column="1"
+                                           Foreground="Red"/>
+                            <TextBlock Text="{Binding PrixU}"
+                                       Foreground="Green"
+                                           Grid.Column="2"
+                                           Grid.RowSpan="2"
+                                           FontWeight="Bold"
+                                       HorizontalAlignment="Right"
+                                       />
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </Grid>
+    </Border>
+</UserControl>

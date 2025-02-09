@@ -1,0 +1,433 @@
+﻿<UserControl x:Class="GES_COM_2.Views.Facturation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GES_COM_2.Views"
+             xmlns:vm="clr-namespace:GES_COM_2.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="852">
+    <UserControl.Resources>
+        <Style x:Key="CustomTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="BorderBrush" Value="Orange"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="MinHeight" Value="30"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                              BorderBrush="{TemplateBinding BorderBrush}"
+                              BorderThickness="{TemplateBinding BorderThickness}"
+                              CornerRadius="10">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                              Focusable="False"
+                              HorizontalScrollBarVisibility="Hidden"
+                              VerticalScrollBarVisibility="Hidden">
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#EAEAEA"/>
+                </Trigger>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#007ACC"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="RoundButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Background"
+                    Value="Transparent"/>
+        </Style>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <vm:FacturationVM/>
+    </UserControl.DataContext>
+    <Border Background="White"
+            CornerRadius="0 0 8 0">
+        <Grid Margin="10,0,-10,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="15,15,0,0">
+                <StackPanel Orientation="Horizontal" Margin="0,0,10,0">
+                    <Label Content="Recherche:"
+                           Margin="10,10,10,10"
+                		FontWeight="Bold"
+                		/>
+                    <TextBox x:Name="TextBoxRecher" 
+                    	Width="140"
+                    	Style="{StaticResource CustomTextBoxStyle}"
+                    	Height="48"
+                        TextChanged="TextBoxRecher_TextChanged"
+                    	VerticalAlignment="Top"/>
+
+                </StackPanel>
+            </StackPanel>
+            <ListView x:Name="listeArticle" Grid.Column="0"
+                    Grid.Row="1"    
+                      FontFamily="Arial"
+                      FontSize="12"
+                      FontWeight="Heavy"
+                      BorderBrush="Cyan"
+                      BorderThickness="1"
+                      ItemsSource="{Binding Articles}"
+                      PreviewMouseLeftButtonDown="listeArticle_PreviewMouseLeftButtonDown"
+                      PreviewMouseLeftButtonUp="listeArticle_PreviewMouseLeftButtonUp"
+                      SelectionChanged="listeArticle_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="270">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Border Height="30"
+                                    Grid.Column="0"
+                                    Grid.RowSpan="2"
+                                    Width="30"
+                                    CornerRadius="10"
+                                    Background="Red"
+                                    HorizontalAlignment="Left"/>
+                            <TextBlock Text="{Binding NomA}"
+                                         FontWeight="Bold"
+                                          Grid.Column="1"
+                                       Margin="10,0,0,0"
+                                           Grid.Row="0"/>
+                            <TextBlock Text="{Binding Qte}"
+                                       Margin="10,0,0,0"
+                                           Grid.Row="1"
+                                           Grid.Column="1"
+                                           Foreground="Red"/>
+                            <TextBlock Text="{Binding PrixU}"
+                                       Foreground="Green"
+                                           Grid.Column="2"
+                                           Grid.RowSpan="2"
+                                           FontWeight="Bold"
+                                       HorizontalAlignment="Right"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <ListView Grid.Row="1" SelectionChanged="ListView_SelectionChanged"
+                    PreviewMouseLeftButtonDown="listePanier_PreviewMouseLeftButtonDown"
+                              MouseDoubleClick="listePanier_MouseDoubleClick"
+                              x:Name="listePanier"
+                          ItemsSource="{Binding Panier}"
+                          Background="White"
+                          BorderBrush="Transparent"
+                          Margin="0,0,0,94"
+                          Grid.ColumnSpan="2" >
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn>
+                                <GridViewColumn.HeaderTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="Produit"
+                                                   Width="200"
+                                                   Height="25"
+                                                   FontSize="20"
+                                                   Background="#85C0E9"
+                                                   VerticalAlignment="Center"
+                                                   TextAlignment="Left"
+                                                   HorizontalAlignment="Left"/>
+                                    </DataTemplate>
+                                </GridViewColumn.HeaderTemplate>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock 
+                                                       Height="25"
+                                                       FontSize="20"
+                                                       VerticalAlignment="Center"
+                                                Text="{Binding Article.NomA}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
+                            <GridViewColumn>
+                                <GridViewColumn.HeaderTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="Qté"
+                                                       Background="#85C0E9"
+                                                       Height="25"
+                                                       FontSize="20"
+                                                       VerticalAlignment="Center"
+                                                   Width="50"
+                                                   TextAlignment="Left"
+                                                   HorizontalAlignment="Left"/>
+                                    </DataTemplate>
+                                </GridViewColumn.HeaderTemplate>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding Quantite}"
+                                                 LostFocus="TextBox_LostFocus"
+                                                 BorderBrush="Transparent"
+                                                 IsReadOnly="False"
+                                                       Height="25"
+                                                       FontSize="20"
+                                                       VerticalAlignment="Center"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
+                            <GridViewColumn>
+                                <GridViewColumn.HeaderTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="Prix"
+                                                       Background="#85C0E9"
+                                                       Height="25"
+                                                       FontSize="20"
+                                                       VerticalAlignment="Center"
+                                                   Width="75"
+                                                   TextAlignment="Left"
+                                                   HorizontalAlignment="Left"/>
+                                    </DataTemplate>
+                                </GridViewColumn.HeaderTemplate>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding Prix}"
+                                                 LostFocus="TextBox_LostFocus"
+                                                       Height="25"
+                                                       FontSize="20"
+                                                       VerticalAlignment="Center"
+                                                     IsReadOnly="False"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
+                            <GridViewColumn>
+                                <GridViewColumn.HeaderTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="Sous Total"
+                                                       Background="#85C0E9"
+                                                       Height="25"
+                                                       FontSize="20"
+                                                       VerticalAlignment="Center"
+                                                   Width="100"
+                                                   TextAlignment="Left"
+                                                   HorizontalAlignment="Left"/>
+                                    </DataTemplate>
+                                </GridViewColumn.HeaderTemplate>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding SousTotal}"
+                                                       Height="25"
+                                                       FontSize="20"
+                                                       VerticalAlignment="Center"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn>
+                                <GridViewColumn.HeaderTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text=""
+                                                       Background="#85C0E9"
+                                                       Height="25"
+                                                       FontSize="23"
+                                                       VerticalAlignment="Center"
+                                                   Width="30"
+                                                   TextAlignment="Left"
+                                                   HorizontalAlignment="Left"/>
+                                    </DataTemplate>
+                                </GridViewColumn.HeaderTemplate>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Image Source="/Assets/corbeille.png"
+                                                   Height="15"
+                                                   x:Name="imgDelete"
+                                                   Width="20"
+                                                   Cursor="Hand"
+                                                   PreviewMouseLeftButtonDown="Image_PreviewMouseLeftButtonDown">
+                                            <!--<Image.Style>
+                                                <Style TargetType="Image">
+                                                    <Style.Triggers>
+                                                        <Trigger Property="IsMouseOver"
+                                                                     Value="true">
+                                                            <Setter Property="Source"
+                                                                        Value="/Assets/corbeille.png"/>
+                                                        </Trigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Image.Style>-->
+                                        </Image>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+
+                </ListView>
+
+
+                <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="103*"/>
+                        <ColumnDefinition Width="63*"/>
+                        <ColumnDefinition Width="118*"/>
+                        <ColumnDefinition Width="284*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal"
+                                Grid.Row="0"
+                                Grid.ColumnSpan="3" Margin="40,0,0,0">
+                        <Label Content="Id" FontWeight="DemiBold" FontSize="16" VerticalAlignment="Center"/>
+                        <TextBox x:Name="TextBoxIdcl" 
+                                 HorizontalAlignment="Right"
+                                 
+                                 Width="115"
+                            VerticalAlignment="Center"
+                                 LostFocus="TextBoxIdcl_LostFocus"
+                                  Style="{StaticResource CustomTextBoxStyle}"
+                                 Text="{Binding client.Idclient}" Height="42" Margin="0,18,0,21" RenderTransformOrigin="0.8,0.619" TextChanged="TextBoxIdcl_TextChanged"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="3" Grid.Row="0" Margin="40,0,0,0">
+                        <Label Content="Nom" FontWeight="DemiBold" FontSize="16" VerticalAlignment="Center"/>
+                        <TextBox x:Name="TextBoxNomcl" HorizontalAlignment="Right" Width="115"
+                             VerticalAlignment="Center"
+                                  Style="{StaticResource CustomTextBoxStyle}"
+                                 Text="{Binding client.NomCl}" TextChanged="TextBoxNomcl_TextChanged"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3">
+                        <Label Content="Adresse" FontWeight="DemiBold" FontSize="16" VerticalAlignment="Center"/>
+                        <TextBox x:Name="TextBoxAdressecl" HorizontalAlignment="Right" Width="115"
+                             VerticalAlignment="Center"
+                                  Style="{StaticResource CustomTextBoxStyle}"
+                                 Text="{Binding client.AdresseCL}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="3" Grid.Row="1" Margin="10,0,0,0">
+                        <Label Content="Telephone" FontWeight="DemiBold" FontSize="16" VerticalAlignment="Center"/>
+                        <TextBox x:Name="TextBoxTelephonecl" HorizontalAlignment="Right" Width="115"
+                             VerticalAlignment="Center" 
+                                  Style="{StaticResource CustomTextBoxStyle}"
+                                 Text="{Binding client.TelCL}" />
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="2" Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="0">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Total" FontWeight="DemiBold" FontSize="18" VerticalAlignment="Center"/>
+                                <TextBlock x:Name="TextBoxTotal" 
+                                   Width="155"
+                                    FontSize="20"
+                                    FontWeight="Heavy"
+                             VerticalAlignment="Center"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Reste" FontWeight="DemiBold" FontSize="18" VerticalAlignment="Center"/>
+                                <TextBlock x:Name="TextBoxReste" 
+                                   Width="155"
+                                    FontSize="20"
+                                    FontWeight="Heavy"
+                             VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="0">
+                        <Label Content="Montant Versé" 
+                               FontWeight="DemiBold"
+                               VerticalAlignment="Center"/>
+                        <TextBox x:Name="TextBoxMontantVerse"  
+                                 TextChanged="TextBoxMontantVerse_TextChanged"
+                                  Style="{StaticResource CustomTextBoxStyle}"
+                                 Width="115"
+                                 FontSize="20"
+                                FontWeight="Heavy"
+                             VerticalAlignment="Center" Height="44" Margin="0,10,0,27"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" 
+                                Grid.Row="1"
+                                HorizontalAlignment="Center"
+                                Orientation="Horizontal">
+                        <Button Grid.Column="0" 
+                            Grid.Row="1" 
+                            Content="Annuler" 
+                              Style="{StaticResource RoundButtonStyle}"
+                            Command="{Binding AnnulerCommand}"
+                             Width="115" 
+                            Height="40" 
+                            FontSize="17"
+                            Background="Red"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Cursor="Hand" Margin="10,27,10,13.667"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="0" 
+                                Grid.Row="1"
+                                HorizontalAlignment="Center"
+                                Orientation="Horizontal">
+                        <Button Grid.Column="0" 
+                            Grid.Row="1" Content="Valider" 
+                               Style="{StaticResource RoundButtonStyle}"
+                            Command="{Binding ValiderCommand}"
+                             Width="115" 
+                            Height="39" 
+                            Background="Green"
+                            FontSize="17"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Cursor="Hand" Click="Button_Click" Margin="10,28,10,13.667"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>
+
+

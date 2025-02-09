@@ -1,0 +1,68 @@
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe.config
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.pdb
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\MySql.Data.dll
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.g.cs
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.g.cs
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\App.g.cs
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.cache
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.lref
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.baml
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.baml
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.g.resources
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES_COM_2.Properties.Resources.resources
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csproj.GenerateResource.Cache
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.exe
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.pdb
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.g.cs
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.baml
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.g.cs
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.baml
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csprojResolveAssemblyReference.cache
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.g.cs
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.baml
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.g.cs
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.baml
+C:\Users\vianney\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.g.cs
+C:\Users\vianney\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.baml
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.dll
+C:\Users\vianney\documents\visual studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.xml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe.config
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.pdb
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.dll
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\MySql.Data.dll
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.xml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\App.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.cache
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.lref
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.baml
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.g.resources
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES_COM_2.Properties.Resources.resources
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csproj.GenerateResource.Cache
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.exe
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.pdb
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csprojResolveAssemblyReference.cache
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.g.cs
+C:\Users\FEUZEU\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.baml

@@ -1,0 +1,288 @@
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\corbeille.png
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\login.png
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\icons8_Checkmark_500px.png
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\179396.png
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\5436332.png
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\10693585.png
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe.config
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.pdb
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.dll
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.xml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\App.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.cache
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.lref
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.baml
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.g.resources
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES_COM_2.Properties.Resources.resources
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csproj.GenerateResource.Cache
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.exe
+C:\Users\MOV'S\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.pdb
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe.config
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.exe
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.pdb
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\Assets\corbeille.png
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\Assets\icons8_Checkmark_500px.png
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\Assets\179396.png
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\Assets\5436332.png
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\Assets\10693585.png
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.pdb
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.xml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csprojResolveAssemblyReference.cache
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\App.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.cache
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.lref
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\App.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Styles\MainStyle.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.g.resources
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GES_COM_2.Properties.Resources.resources
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csproj.GenerateResource.Cache
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Themes\LightTheme.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\HistoriqueView.g.cs
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\obj\Debug\Views\HistoriqueView.baml
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\MySql.Data.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\W10\Desktop\GES-COM 2\GES-COM 2\bin\Debug\stdole.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe.config
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.exe
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.pdb
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\corbeille.png
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\icons8_Checkmark_500px.png
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\179396.png
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\5436332.png
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\Assets\10693585.png
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.pdb
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\log4net.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\MySql.Data.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.xml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\bin\Debug\log4net.xml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csprojResolveAssemblyReference.cache
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtatAppro.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtats.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\HistoriqueView.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\App.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.cache
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.lref
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\App.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Styles\MainStyle.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Themes\LightTheme.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtatAppro.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtats.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\HistoriqueView.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.baml
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.g.resources
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES_COM_2.Properties.Resources.resources
+C:\Users\W10\Downloads\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csproj.GenerateResource.Cache
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\Assets\corbeille.png
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\Assets\icons8_Checkmark_500px.png
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\Assets\179396.png
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\Assets\5436332.png
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\Assets\10693585.png
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe.config
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.pdb
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\log4net.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\MySql.Data.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.xml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\bin\Debug\log4net.xml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtatAppro.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtats.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\HistoriqueView.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\App.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.cache
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.lref
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\App.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Styles\MainStyle.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Themes\LightTheme.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtatAppro.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtats.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\HistoriqueView.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.baml
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.g.resources
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GES_COM_2.Properties.Resources.resources
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csproj.GenerateResource.Cache
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.exe
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.pdb
+C:\Users\WAYSHOP\Pictures\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csprojResolveAssemblyReference.cache
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\Assets\corbeille.png
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\Assets\icons8_Checkmark_500px.png
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\Assets\179396.png
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\Assets\5436332.png
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\Assets\10693585.png
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe.config
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.exe
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\GES-COM 2.pdb
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\log4net.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\MySql.Data.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\itextsharp.xml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\bin\Debug\log4net.xml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtatAppro.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtats.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\HistoriqueView.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\App.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.cache
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2_MarkupCompile.lref
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\App.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\MainWindow.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Styles\MainStyle.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Themes\LightTheme.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\AccueiView.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ApprovisionnementView.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ArticlesView.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\ClientView.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\DistributeurView.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Facturation.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtatAppro.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreEtats.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\FenetreloginView.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\HistoriqueView.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\Message Box.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\Views\UtilisateurView.baml
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.g.resources
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES_COM_2.Properties.Resources.resources
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csproj.GenerateResource.Cache
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.exe
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.pdb
+C:\Users\WAYSHOP\Documents\Visual Studio 2015\Projects\GES-COM 2\GES-COM 2\obj\Debug\GES-COM 2.csprojResolveAssemblyReference.cache

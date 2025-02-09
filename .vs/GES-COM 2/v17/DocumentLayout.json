@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\reports\\rapportventes.rpt||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\reports\\rapportventes.rpt||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\views\\utilisateurview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\views\\utilisateurview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\viewmodels\\clientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\viewmodels\\clientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\views\\articlesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\views\\articlesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\views\\facturation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\views\\facturation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\viewmodels\\utilisateurvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\viewmodels\\utilisateurvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\views\\utilisateurview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\views\\utilisateurview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\views\\articlesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\views\\articlesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\viewmodels\\articlevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\viewmodels\\articlevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|c:\\users\\wayshop\\documents\\visual studio 2015\\projects\\ges-com 2\\ges-com 2\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{22DB0802-B2A6-4637-AC30-04D76F64F504}|GES-COM 2\\GES-COM 2.csproj|solutionrelative:ges-com 2\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RapportVentes.rpt",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Reports\\RapportVentes.rpt",
+              "RelativeDocumentMoniker": "GES-COM 2\\Reports\\RapportVentes.rpt",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Reports\\RapportVentes.rpt",
+              "RelativeToolTip": "GES-COM 2\\Reports\\RapportVentes.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASDSURBVEhLtVVNTBx1FP/N98eyM/uBsLRACU0k0BYWsXw1xhAPHjQqpmptm/TQ2IMnDQcTTzXGmp5MqpFqNGkPjdWoSSvGxlStAYvaAlVLe1iIfC/QAmXZXZbdmR3fzE5QYKFe\u002Bpt5M29m3tf/vf97gwcKy7IYl11FadmOyt176hvdxy2RtbLZWzf/6psY/3vYfXV/tO8/eDR6J5ZdiCXvS5Mz94yPz14YUD0Fuqu\u002BAax7XwOPIkIvkPOS5pHh9UjwqhLxEhuuC9d98c3VOUEUZVd9DfI62AyUUtiHcxLPciwCfgWhQp398NOvrm8vrXjYFV3F/3ZgZcmqw5ALIvuRZRj4NBWF/gI01NdVHz9x6rwgiFJOMIf7OiBbyJK1LIXt3B2iJyIbHkWARqkrDBQwDQ314a8vXYs7H1xs6sA27JB7OKcd/eo3C4ZhIraUQsYwIPIcykM\u002BMAzD5SzksIWDXCrs1FgUrJ0SmwaTt9A50YmEkQTDslAVCYosQCby0kpYdu3OZ2V9e7GslWiSN8S77xzk8mwT8W5aFo1FXEx8Sw4\u002Bwsmhk4inl2DSezttdspsnfXgT3zSfeaP4aWRkemle8PdpyOekkdqDNPOuLsKip6umDXuoj/Th218CVTI\u002BGDifSTMJF4v70BQDJKsLbcR3KGXX5x8oqE43FoTOKKUNLcNxUJNv/wZFZPLKwgFyJTEUuQx9KZ/g8LJCHB\u002B9Mz2YHplGoOJm0gay2jW9oGzWAgCj5HJOZw70/mWax9cdW3rTCJl9prpxOWm6oJAVZlWGZnl5B8G7uK7q2OYTcyhr6gLFmMgyAfhZT34OXoFE7EJmBkTAwv9yBoWmv2tkEQeo\u002BsddP940TCNTFxU9el4Cj0BDyO1VOutgqhgfIHH4NQMhlM9GBP6McwM4zZzG4PXBjF3Yw7WUBbKqIxdehgNRXvhoe4em5pf48DZRd93fYZT73ak3nnz6FRqxYiUF6t4sk7CvhoNIlOO5d\u002BfQjQiYyQzgiEjgoXoPDCehTAl4KWyI3gm9AKWl9N5i7y6TZdiC5ieHLU\u002BP/ueqVN3FtEIqK9gEdQUiGwl2Ov7Yc0Wg6EBbKUsCGkB7eEDeL7xIHSvBkkS7B5wrf2LvH3A04xRabllhTwtmwMrqBDMKqQvt8OIBqFaKg41HsPhx16BX9Ph99FKRSHvLsrrwI6Eo4aRRBaaTPuU5cEpPoiJOjAXDuPV8Bt47tEDZNwHn88LUbCNU/R5PGzayXbzxCkV0UVS5UUoHgVFRTpqy6rxeEUbzR4/fLptXKQ5RfJO72xRg//CLtZyykBvxEDcVODXPdgZklFVquDZJorar1HkOqWFjJNsbhjaio76GmxwYEeRpv3ddWMFv04EULHtIbRUKairoKI2sNgZzNJg46lOXK7LbbI73iTK42C17Mdee5vZU9\u002BqFu7YdTzLKR1pUwD9uFBApPJpaOIKAl7OmZpUJFdrI/oHx/B0W\u002B1q4OsctCj089hLE3E3Fdr5RnyGUpBKrWTSX547bS3M33Hkt0L3T5fOu\u002ByDBvAPpv4NXXCfjRcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-30T22:23:26.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticlesView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\ArticlesView.xaml.cs",
+              "RelativeDocumentMoniker": "GES-COM 2\\Views\\ArticlesView.xaml.cs",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\ArticlesView.xaml.cs",
+              "RelativeToolTip": "GES-COM 2\\Views\\ArticlesView.xaml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:42:40.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArticlesView.xaml",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\ArticlesView.xaml",
+              "RelativeDocumentMoniker": "GES-COM 2\\Views\\ArticlesView.xaml",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\ArticlesView.xaml",
+              "RelativeToolTip": "GES-COM 2\\Views\\ArticlesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T21:42:27.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArticleVM.cs",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\ViewModels\\ArticleVM.cs",
+              "RelativeDocumentMoniker": "GES-COM 2\\ViewModels\\ArticleVM.cs",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\ViewModels\\ArticleVM.cs",
+              "RelativeToolTip": "GES-COM 2\\ViewModels\\ArticleVM.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:42:16.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UtilisateurVM.cs",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\ViewModels\\UtilisateurVM.cs",
+              "RelativeDocumentMoniker": "GES-COM 2\\ViewModels\\UtilisateurVM.cs",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\ViewModels\\UtilisateurVM.cs",
+              "RelativeToolTip": "GES-COM 2\\ViewModels\\UtilisateurVM.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAswIUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:38:59.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UtilisateurView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\UtilisateurView.xaml.cs",
+              "RelativeDocumentMoniker": "GES-COM 2\\Views\\UtilisateurView.xaml.cs",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\UtilisateurView.xaml.cs",
+              "RelativeToolTip": "GES-COM 2\\Views\\UtilisateurView.xaml.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAmwDcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:36:43.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UtilisateurView.xaml",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\UtilisateurView.xaml",
+              "RelativeDocumentMoniker": "GES-COM 2\\Views\\UtilisateurView.xaml",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\UtilisateurView.xaml",
+              "RelativeToolTip": "GES-COM 2\\Views\\UtilisateurView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T21:36:04.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GES-COM 2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GES-COM 2\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:44:54.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GES-COM 2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\MainWindow.xaml",
+              "RelativeToolTip": "GES-COM 2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T20:44:49.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Facturation.xaml",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\Facturation.xaml",
+              "RelativeDocumentMoniker": "GES-COM 2\\Views\\Facturation.xaml",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\Views\\Facturation.xaml",
+              "RelativeToolTip": "GES-COM 2\\Views\\Facturation.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T19:28:48.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientVM.cs",
+              "DocumentMoniker": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\ViewModels\\ClientVM.cs",
+              "RelativeDocumentMoniker": "GES-COM 2\\ViewModels\\ClientVM.cs",
+              "ToolTip": "C:\\Users\\WAYSHOP\\Documents\\Visual Studio 2015\\Projects\\GES-COM 2\\GES-COM 2\\ViewModels\\ClientVM.cs",
+              "RelativeToolTip": "GES-COM 2\\ViewModels\\ClientVM.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T19:21:27.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+﻿<UserControl x:Class="GES_COM_2.Views.DistributeurView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GES_COM_2.Views"
+             xmlns:vm="clr-namespace:GES_COM_2.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="852">
+    <UserControl.DataContext>
+        <vm:DistributeurVM/>
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <Style x:Key="CustomDataGridStyle" TargetType="DataGrid">
+            <Setter Property="Background" Value="#F0F0F0"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="RowHeight" Value="40"/>
+            <Setter Property="AlternatingRowBackground" Value="Beige"/>
+            <Setter Property="CellStyle">
+                <Setter.Value>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="Background" Value="AliceBlue"/>
+                        <Setter Property="Foreground" Value="Black"/>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate 
+                      TargetType="Button">
+                        <Border
+                   Background="{TemplateBinding Background}"
+                   BorderBrush="{TemplateBinding BorderBrush}"
+                   BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="10">
+                            <ContentPresenter
+                      HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CustomTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="BorderBrush" Value="Orange"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="MinHeight" Value="30"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                              BorderBrush="{TemplateBinding BorderBrush}"
+                              BorderThickness="{TemplateBinding BorderThickness}"
+                              CornerRadius="10">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                              Focusable="False"
+                              HorizontalScrollBarVisibility="Hidden"
+                              VerticalScrollBarVisibility="Hidden">
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#EAEAEA"/>
+                </Trigger>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#007ACC"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="RoundButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Background"
+                    Value="Transparent"/>
+        </Style>
+    </UserControl.Resources>
+    <Border Background="White"
+            CornerRadius="0 0 8 0">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="1"
+                        Grid.Column="1"
+                        Margin="0 20">
+                <StackPanel Orientation="Horizontal" Height="59" Margin="25,0,0,0">
+                    <Label Content="N'Fournisseur" 
+                		FontWeight="Bold"
+                		Margin ="10,20,50,10" Width="94" />
+                    <TextBox x:Name="TextBoxIDFr"
+                		Style="{StaticResource CustomTextBoxStyle}"  
+                		Width="140" Height="40"
+                           
+                		Background="Wheat"
+                		VerticalAlignment="Top"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="25,0,0,0">
+                    <Label Content="Nom Fournisseur"
+                		FontWeight="Bold"
+                		Margin ="10,20,33,10" />
+                    <TextBox x:Name="TextBoxNom"
+                		Style="{StaticResource CustomTextBoxStyle}"  
+                		Width="140" Height="40"
+                		VerticalAlignment="Top"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="25,0,0,0">
+                    <Label Content="Adresse Fournisseur"
+                           FontWeight="Bold"
+                           Margin ="10,20,17,10" />
+                    <TextBox x:Name="TextBoxAdresseFr"
+                              Style="{StaticResource CustomTextBoxStyle}"  
+                             Width="140" Height="40"
+                             VerticalAlignment="Top"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="25,0,0,0">
+                    <Label Content="Téléphone Fournisseur"
+                		FontWeight="Bold"
+                		Margin ="10,20,10,10" />
+                    <TextBox x:Name="TextBoxTelephoneFr"
+                		Style="{StaticResource CustomTextBoxStyle}"  
+                		Width="140" Height="40"
+                		VerticalAlignment="Top"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="61" Margin="10 0">
+                    <Button  Content="Enregistrer"
+                		x:Name="ButtonEngistrerFr"
+                               Style="{StaticResource RoundButtonStyle}"
+                		Click="ButtonEnregistrer_Click"
+                		HorizontalAlignment="Center"
+                		VerticalAlignment="Center"
+                		Margin="5 5" 
+                		Width="97"
+                		FontSize="18"                		
+                		Cursor="Hand"
+                		Height="60"/>
+                    <Button  Content="Modifier"
+                		x:Name="ButtonModifierFr" 
+                               Style="{StaticResource RoundButtonStyle}"
+                		Click="ButtonModifier_Click"
+                		Margin="5 5" 
+                		Width="78"
+                		Cursor="Hand"
+                		Background="Gold"
+                		FontSize="18"
+                		Height="60" 
+                		HorizontalAlignment="Center"
+                		VerticalAlignment="Center"/>
+                    <Button  Content="Supprimer" 
+                		x:Name="ButtonSupprimerFr" 
+                               Style="{StaticResource RoundButtonStyle}"
+                		Click="ButtonSupprimer_Click" 
+                		Margin="5 5" 
+                		Width="91"
+                		Height="60"
+                		FontSize="18"
+                		Background="Red"
+                		Cursor="Hand"
+                		HorizontalAlignment="Center"
+                		VerticalAlignment="Center"/>
+                    <Button  Content="Imprimer"
+                		x:Name="ButtonImprimerFr"
+                		Click="ButtonImprimer_Click" 
+                               Style="{StaticResource RoundButtonStyle}"
+                		Margin="5 5"
+                		Width="90" 
+                		Height="60"
+                		Cursor="Hand"
+                		FontSize="18"
+                		Background="DimGray"
+                		HorizontalAlignment="Center"
+                		VerticalAlignment="Center" RenderTransformOrigin="0.253,0.607"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="25,15,0,0">
+                <StackPanel Orientation="Horizontal" Margin="0,0,10,0">
+                    <Label Content="Recherche:"
+                           Margin="10,10,10,10"
+                		FontWeight="Bold"
+                		/>
+                    <TextBox x:Name="TextBoxRecher" 
+                    	Width="140"
+                    	Style="{StaticResource CustomTextBoxStyle}"
+                    	Height="48"
+                             TextChanged="TextBoxRecher_TextChanged"
+                    	VerticalAlignment="Top"/>
+
+                </StackPanel>
+            </StackPanel>
+            <ListView Grid.Row="1"
+                      SelectionChanged="ListViewFournisseur_SelectionChanged"
+                      Grid.Column="0"
+                      ItemsSource="{Binding Fournisseurs}"
+                      FontFamily="Arial"
+                      FontSize="12"
+                      FontWeight="Heavy"
+                      BorderBrush="Cyan"
+                      BorderThickness="1"
+                      x:Name="ListeFournisseur" Margin="0 15">
+                <ListView.View>
+                    <GridView>
+
+                        <GridViewColumn Header="N.Client"
+                                        Width="90"
+                                        DisplayMemberBinding="{Binding idfourni}"
+                                        />
+                        <GridViewColumn Header="NOM"
+                                        Width="100"
+                                        DisplayMemberBinding="{Binding Nom}"/>
+                        <GridViewColumn Header="Adresse"
+                                        Width="100"
+                                        DisplayMemberBinding="{Binding Adresse}"/>
+                        <GridViewColumn Header="Telephone"
+                                        Width="100"
+                                        DisplayMemberBinding="{Binding TelFOURNI}"/>
+
+                    </GridView>
+                </ListView.View>
+
+            </ListView>
+        </Grid>
+    </Border>
+</UserControl>

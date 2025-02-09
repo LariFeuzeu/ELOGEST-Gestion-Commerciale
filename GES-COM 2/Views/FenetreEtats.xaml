@@ -1,0 +1,14 @@
+﻿<Window xmlns:Viewer="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer"  x:Class="GES_COM_2.Views.FenetreEtats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GES_COM_2.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="FenetreEtats" Height="500" Width="720">
+    <Grid>
+        <Viewer:CrystalReportsViewer  x:Name="reportViewer"/>
+    </Grid>
+</Window>
+ 

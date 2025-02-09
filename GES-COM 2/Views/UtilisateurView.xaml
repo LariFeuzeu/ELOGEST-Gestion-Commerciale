@@ -1,0 +1,247 @@
+﻿<UserControl x:Class="GES_COM_2.Views.UtilisateurView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GES_COM_2.Views"
+             xmlns:vm="clr-namespace:GES_COM_2.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" Width="868">
+    <UserControl.Resources>
+
+        <Style x:Key="CustomTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="BorderBrush" Value="Orange" />
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="MinHeight" Value="30"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                              BorderBrush="{TemplateBinding BorderBrush}"
+                              BorderThickness="{TemplateBinding BorderThickness}"
+                              CornerRadius="10">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                              Focusable="False"
+                              HorizontalScrollBarVisibility="Hidden"
+                              VerticalScrollBarVisibility="Hidden">
+                            </ScrollViewer>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#EAEAEA"/>
+                </Trigger>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="#007ACC"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="RoundButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Background"
+                    Value="Transparent"/>
+        </Style>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <vm:UtilisateurVM/>
+    </UserControl.DataContext>
+    <Border
+         Background="White"
+        CornerRadius="0 0 8 0">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="33*"/>
+                <RowDefinition Height="230*"/>
+
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="15,0,0,0">
+                <StackPanel Orientation="Horizontal" 
+                            Height="91">
+                    <Label Content="Recherche:"
+                           Margin="30,22,0,10"
+                		FontWeight="Bold"/>
+                    <TextBox x:Name="TextBoxRecher" 
+                    	Width="140"
+                    	Style="{StaticResource CustomTextBoxStyle}"
+                    	Height="47"
+                             Margin="10,14,10,1"
+                    	VerticalAlignment="Top" TextChanged="TextBoxRecher_TextChanged"/>
+
+                </StackPanel>
+            </StackPanel>
+            <ListView Grid.Column="0"
+                      x:Name="listeUtiilisateur"
+                      SelectionChanged="listeUtiilisateur_SelectionChanged"                      
+                      ItemsSource="{Binding FilteredUsers}"
+                      SelectedItem="{Binding SelectedUti}"
+                      FontFamily="Arial"
+                      FontSize="12"
+                      FontWeight="Heavy"
+                      BorderBrush="Cyan"
+                      BorderThickness="1"
+                      Grid.Row="1" Margin="0 15">
+                <ListView.View >
+                    <GridView>
+
+                        <GridViewColumn Header="N.Uti"
+                                        Width="40"
+                                       
+                                        DisplayMemberBinding="{Binding Idutili}"
+                                        />
+                        <GridViewColumn Header="NOM"
+                                        Width="50"
+                                        DisplayMemberBinding="{Binding Nom}"/>
+                        <GridViewColumn Header="LIbelle"
+                                        Width="80"
+                                        DisplayMemberBinding="{Binding Libelle}"/>
+                        <GridViewColumn Header="Motdepasse"
+                                        Width="100"
+                                        DisplayMemberBinding="{Binding Motdepasse}"/>
+
+                        <GridViewColumn Header="Telephone"
+                                        
+                                        Width="100"
+                                        DisplayMemberBinding="{Binding TelUT}"/>
+
+                    </GridView>
+                </ListView.View>
+
+            </ListView>
+
+            <Grid Grid.Column="1"
+                  Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Vertical"
+                            Grid.Column="0">
+                    <Label Content="N'utili" 
+                             FontWeight="Bold"
+                           Margin="0,32,90,0" Height="30"/>
+                    <TextBox x:Name="TextboxNutili"
+                		HorizontalAlignment="Right"
+                              Style="{StaticResource CustomTextBoxStyle}"  
+                		VerticalAlignment="Top"
+                       Text="{Binding SelectedUti.Idutili}"
+                             Background="Wheat"
+                		Height="40"
+                        Margin="0,-39,90.333,0"                		
+                		Width="109"/>
+
+
+                    <Label Content="Nom"
+                             FontWeight="Bold"
+                           Margin="0,32,90,0" Height="32"/>
+                    <TextBox x:Name="TextboxNom"
+                		HorizontalAlignment="Right"
+                		VerticalAlignment="Top"
+                              Style="{StaticResource CustomTextBoxStyle}"  
+                		Height="40"
+                        Margin="0,-29,90.333,0"
+                              Text="{Binding SelectedUti.Nom}"
+                		Width="109" TextChanged="TextboxNom_TextChanged"/>
+
+                    <Label Content="Telephone" 
+                             FontWeight="Bold"
+                           Margin="0,12,90,0" Height="38"/>
+                    <TextBox x:Name="TextboxTelephone"
+                		HorizontalAlignment="Right"
+                		VerticalAlignment="Top"
+                		Height="40"
+                              Style="{StaticResource CustomTextBoxStyle}"  
+                              Text="{Binding SelectedUti.TelUT}"
+                        Margin="0,-29,90.333,0"
+
+                		Width="109"/>
+
+
+                    <Label Content="Libelle" 
+                           FontWeight="Bold"
+                           Margin="0,12,90,0"
+                        
+                           Height="37"/>
+                    <TextBox x:Name="TextboxLibelle"
+                		HorizontalAlignment="Right"
+                		VerticalAlignment="Top"
+                              Style="{StaticResource CustomTextBoxStyle}"  
+                		Height="40"
+                              Text="{Binding SelectedUti.Libelle}"
+                        Margin="0,-29,90.333,0"
+                		Width="109"/>
+
+                    <Label Content="MotdePasse"
+                             FontWeight="Bold"
+                           Margin="0,12,90,0" RenderTransformOrigin="0.69,0.519" Height="33"/>
+                    <TextBox x:Name="TextboxMotdePasse"
+                		HorizontalAlignment="Right"
+                		VerticalAlignment="Top"
+                		Height="40"
+                        Margin="0,-29,90.333,0"
+                              Text="{Binding SelectedUti.Motdepasse}"
+                              Style="{StaticResource CustomTextBoxStyle}"  
+                		Width="109"/>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1"
+                                HorizontalAlignment="Center"
+                                Margin="0 20 0 0"
+                                Height="60">
+                        <Button Content="Enregistrer"
+                            Margin="5 5"
+                            Cursor="Hand"
+                            Width="85"
+                                                  
+                         Style="{StaticResource RoundButtonStyle}" Click="Button_Click" Height="Auto"
+                            />
+
+                        <Button Content="Modifier"
+                           Margin="5 5"
+                             Cursor="Hand"
+                             Width="85"
+                            Background="Gold"
+                                                
+                         Style="{StaticResource RoundButtonStyle}" Click="Button_Click_1" Height="Auto"/>
+                        <Button Content="Supprimer"
+                            Margin="5 5"
+                             Cursor="Hand"
+                             Width="85"
+                            Background="Red"                 
+                         Style="{StaticResource RoundButtonStyle}" Click="Button_Click_2" Height="Auto"/>
+                        <Button Content="Imprimer"
+                            Margin="5 5"
+                             Cursor="Hand"
+                             Width="83"
+                            Background="Gray"
+                                Style="{StaticResource RoundButtonStyle}" Height="Auto"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+
+        </Grid>
+    </Border>
+</UserControl>

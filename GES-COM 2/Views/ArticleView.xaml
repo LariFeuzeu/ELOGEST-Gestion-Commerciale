@@ -1,0 +1,88 @@
+﻿<Window x:Class="GES_COM_2.Views.ArticleView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GES_COM_2.Views"
+        xmlns:vm="clr-namespace:GES_COM_2.ViewModels"
+        mc:Ignorable="d"
+        Title="ArticleView" 
+        Height="720" 
+        Width="852"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Window.DataContext>
+        <vm:ArticleVM/>
+    </Window.DataContext>
+    <Border Background="Beige"
+            CornerRadius="20">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="9*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Column="1"
+                        Grid.Row="1" Margin="5,0,-5,0">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="N.Article:" Margin="10,10,65,10"/>
+                    <TextBox x:Name="LabelNumeroA" Width="140" 
+                Height="40" VerticalAlignment="Top"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Nom Aricle:" Margin="10,10,50,10" />
+                    <TextBox x:Name="LabelNomA" Width="140"      
+                     Height="40"
+                     VerticalAlignment="Top"/>
+                </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Quantite:" Margin="10,10,65,10"/>
+                        <TextBox x:Name="LabelQuantiteA" Width="140" Height="40"
+                                 VerticalAlignment="Top"/>
+                    </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="PrixU:" Margin="10,10,83,10"/>
+                    <TextBox x:Name="LabelPrixU" Width="140" Height="40"
+                                 VerticalAlignment="Top"/>
+                    
+                      </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="60">
+                    <Button Content="Enregistrer" Click="ButtonEnregistrer_Click" x:Name="ButtonEnregistrer" Margin="40,14,10,7" Width="78"/>
+                    <Button Content="Modifier" x:Name="ButtonModifier" Margin="40,11,10,10" Width="73"/>
+                    <Button Content="Supprimer" x:Name="ButtonSupprimer" Margin="40,10,10,11" Width="73"/>
+                </StackPanel>
+            </StackPanel>
+            <ListView Grid.Column="0"
+                    Grid.Row="1"    
+                      ItemsSource="{Binding Articles}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Border Height="30"
+                                    Width="30"
+                                    CornerRadius="10"
+                                    Background="Red"
+                                    HorizontalAlignment="Left"/>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="{Binding NomA}"
+                                           FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Qte}"
+                                           Foreground="Red"/>
+                            </StackPanel>
+                            <TextBlock Text="{Binding PrixU}"
+                                       Foreground="Green"
+                                       HorizontalAlignment="Right"
+                                       Margin="100,0,0,0"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </Grid>
+    </Border>
+</Window>

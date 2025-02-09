@@ -1,0 +1,222 @@
+﻿<UserControl x:Class="GES_COM_2.Views.AccueiView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GES_COM_2.Views"
+             xmlns:vm="clr-namespace:GES_COM_2.ViewModels"
+             Background="Transparent"
+             mc:Ignorable="d" d:DesignHeight="720" d:DesignWidth="850">
+    <UserControl.DataContext>
+        <vm:AccueilVM/>
+    </UserControl.DataContext>
+    <Border Background="White"
+            CornerRadius="0 0 8 0">
+        <Grid>
+            <Grid.Triggers>
+                <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation
+                                Storyboard.TargetProperty="Opacity"
+                                From="0"
+                                To="2"
+                                Duration="0:0:0.9"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Grid.Triggers>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Top">
+                <TextBlock Text="BIENVENUE SUR ELOGEST !"
+            		Foreground="{StaticResource PrimaryOrangeColor}"
+                           FontSize="50"
+            		FontWeight="Bold"
+            		Margin="0,10,0,0" Height="auto" Width="auto">
+                </TextBlock>
+                <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Center"
+                            Margin="0,0,10,0">
+                    <TextBlock x:Name="timerTextb"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="30"
+                       FontFamily="Arial"/>
+                    <TextBlock Text="  "/>
+                    <TextBlock x:Name="dateTextb"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Bottom"
+                       FontSize="25"
+                       />
+                </StackPanel>
+            </StackPanel>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Border Background="{StaticResource SecundaryBackgroundColor}"
+                    x:Name="borderArticlesPerimes"
+                    BorderBrush="Red"
+                    BorderThickness="2"
+                    CornerRadius="8"
+                    Height="250"
+                    Width="457"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 0 10 0">
+                    <StackPanel>
+                        <TextBlock Text="Certains produits sont périmés !"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Center"
+                               FontSize="16"
+                               FontWeight="DemiBold"
+                               Foreground="Red"/>
+                        <ScrollViewer>
+                            <ListView x:Name="listeArticlesPerimes" Grid.Column="0"
+                              Grid.Row="1"    
+                                  Margin="3"
+                                  Height="210"
+                              FontFamily="Arial"
+                              FontSize="12"
+                              FontWeight="Heavy"
+                              BorderBrush="#CAE9FF"
+                              Background="Transparent"
+                              BorderThickness="0">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid Width="270">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="30"/>
+                                                <ColumnDefinition Width="3*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+                                            <Border Height="30"
+                                            Grid.Column="0"
+                                            Grid.RowSpan="2"
+                                            Width="30"
+                                            CornerRadius="10"
+                                            Background="Red"
+                                            HorizontalAlignment="Left"/>
+                                            <TextBlock Text="{Binding NomA}"
+                                                       FontWeight="Bold"
+                                                       Grid.Column="1"
+                                                       Margin="10,0,0,0"
+                                                       Grid.Row="0"/>
+                                            <TextBlock Text="{Binding QtePerimee}"
+                                                       Margin="10,0,0,0"
+                                                       Grid.Row="1"
+                                                       Grid.Column="1"
+                                                       Foreground="Red"/>
+                                            <TextBlock Text="{Binding PrixU}"
+                                                       Foreground="Green"
+                                                       Grid.Column="2"
+                                                       Grid.RowSpan="2"
+                                                       FontWeight="Bold"
+                                                       HorizontalAlignment="Right"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </ScrollViewer>
+                    </StackPanel>
+
+                </Border>
+                <Border Background="{StaticResource SecundaryBackgroundColor}"
+                    x:Name="borderStocksInsuffisants"
+                    BorderBrush="Red"
+                    BorderThickness="2"
+                    CornerRadius="8"
+                    Height="250"
+                    Width="457"
+                        Grid.Row="1"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 0 10 0">
+                    <StackPanel>
+                        <TextBlock Text="Certains stocks sont insuffisants !"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Center"
+                               FontSize="16"
+                               FontWeight="DemiBold"
+                               Foreground="Red"/>
+                        <ScrollViewer>
+                            <ListView x:Name="listeArticlesInsuffisants" Grid.Column="0"
+                              Grid.Row="1"    
+                                  Margin="3"
+                                  Height="210"
+                              FontFamily="Arial"
+                              FontSize="12"
+                              FontWeight="Heavy"
+                              BorderBrush="#CAE9FF"
+                              Background="Transparent"
+                              BorderThickness="0">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid Width="270">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="30"/>
+                                                <ColumnDefinition Width="3*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+                                            <Border Height="30"
+                                            Grid.Column="0"
+                                            Grid.RowSpan="2"
+                                            Width="30"
+                                            CornerRadius="10"
+                                            Background="Red"
+                                            HorizontalAlignment="Left"/>
+                                            <TextBlock Text="{Binding NomA}"
+                                                       FontWeight="Bold"
+                                                       Grid.Column="1"
+                                                       Margin="10,0,0,0"
+                                                       Grid.Row="0"/>
+                                            <TextBlock Text="{Binding Qte}"
+                                                       Margin="10,0,0,0"
+                                                       Grid.Row="1"
+                                                       Grid.Column="1"
+                                                       Foreground="Red"/>
+                                            <TextBlock Text="{Binding PrixU}"
+                                                       Foreground="Green"
+                                                       Grid.Column="2"
+                                                       Grid.RowSpan="2"
+                                                       FontWeight="Bold"
+                                                       HorizontalAlignment="Right"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </ScrollViewer>
+                    </StackPanel>
+
+                </Border>
+            </Grid>
+            
+            <TextBlock Text="Développé par Lari Feuzeu.dev"
+                       VerticalAlignment="Bottom"
+                       Grid.Row="2"
+            	       FontSize="20"
+            	       FontWeight="Bold"
+            	       Foreground="{StaticResource PrimaryGrayColor}"
+                       HorizontalAlignment="Center"
+            	       Height="41" Width="Auto" RenderTransformOrigin="0.535,0.463">
+                
+            </TextBlock>
+        </Grid>
+    </Border>
+</UserControl>
+  
